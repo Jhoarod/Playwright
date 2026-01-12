@@ -20,7 +20,7 @@ with sync_playwright() as p:
         info["value"] = rb.get_attribute("value")
         info["aria-label"] = rb.get_attribute("aria-label")
 
-        # todos los atributos
+        # todos los atributs
         attrs = page.evaluate("""
             (el) => {
                 const attr = {};
