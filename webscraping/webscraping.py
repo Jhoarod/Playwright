@@ -10,7 +10,7 @@ with sync_playwright() as p:
 
     radio_buttons = page.query_selector_all("input[type='radio']")
 
-    print("\n=== DATOS COMPLETOS DEL DOM ===\n")
+    print("\n DATOS COMPLETOS DEL DOM \n")
 
     for rb in radio_buttons:
         info = {}
